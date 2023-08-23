@@ -29,7 +29,9 @@
 
 #button {
   padding: $padding-button;
-  margin-top: 60px;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  font-size: 15px;
 }
 
 .footer {
@@ -56,6 +58,13 @@
 
 
 // MEDIA QUERY
+@media (max-width: 449px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0;
+    }
+  }
+}
 
 @media (max-width: 405px) {
   .logoPc {

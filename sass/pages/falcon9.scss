@@ -1,0 +1,157 @@
+.container00 {
+  &.container05 {
+    background-image: url(../../img/falcon9/01.jpg);
+  }
+  &.container06 {
+    background-image: url(../../img/falcon9/02.jpg);
+  }
+  &.carrossel01 {
+    background-image: url(../../img/falcon9/03.jpg);
+  }
+  &.carrossel02 {
+    background-image: url(../../img/falcon9/04.jpg);
+  }
+  &.carrossel03 {
+    background-image: url(../../img/falcon9/05.jpg);
+  }
+  &.carrossel04 {
+    background-image: url(../../img/falcon9/06.jpg);
+  }
+  &.carrossel05 {
+    background-image: url(../../img/falcon9/07.jpg);
+  }
+  &.container07 {
+    background-image: url(../../img/falcon9/08.jpg);
+  }
+}
+
+.titleFalcon9 {
+  font-size: 5.625rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.numbers {
+  background: #000;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .titleNumb {
+    font-size: 5.625rem;
+  }
+
+  .subTitleNumb {
+    font-size: 1.25rem;
+  }
+}
+
+.falcon9Desc {
+  font-size: 1.375rem;
+  width: 40rem;
+  line-height: 3.125rem;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
+
+.carrosselText {
+  background: #000;
+}
+
+.downloadDesc {
+  background: #000;
+  height: 85vh;
+  padding-top: 240px;
+
+  a {
+    text-decoration: none;
+    color: $copy-color;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  button {
+    border: 2px solid #fff;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .numbers {
+    .titleNumb {
+      font-size: 5rem;
+    }
+  
+    .subTitleNumb {
+      font-size: 1.125rem;
+    }
+  }
+
+  .falcon9Desc {
+    font-size: 1rem;
+    line-height: 2rem;
+    width: auto;
+  }
+
+  #overViewPosition {
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 3.125rem;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+
+  .falcon9Desc {
+    font-size: 1.125rem;
+    line-height: auto;
+  }
+
+  .subTitleFalcon {
+    font-size: 1rem;
+  }
+}
