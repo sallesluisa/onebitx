@@ -10,13 +10,14 @@
     />
 
     <!--LIB TEXT-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--FAVICON-->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css" />
-    <title>onebitX | Falcon9</title>
+    <title>onebitX | FALCON 9</title>
   </head>
   <body>
     <div class="container-fluid container00 container05">
@@ -67,7 +68,7 @@
         </header>
       </div>
 
-      <div class="container text-center titleContent">
+      <div class="container text-center titleContent" data-aos="fade-up" data-aos-duration="1500">
         <p class="h1 titleFalcon9">FALCON 9</p>
         <p class="h5 subTitleFalcon">
           PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR
@@ -78,16 +79,16 @@
     <div class="container-fluid numbers">
       <div class="row text-center">
         <div class="col-sm col1">
-          <p class="h1 titleNumb">126</p>
-          <p class="subTitleNumb">LANÇAMENTOS TOTAIS</p>
+          <p class="h1 titleNumb" data-aos="flip-up" data-aos-duration="1200">126</p>
+          <p class="subTitleNumb" data-aos="flip-up" data-aos-duration="1100">LANÇAMENTOS TOTAIS</p>
         </div>
         <div class="col">
-          <p class="h1 titleNumb">86</p>
-          <p class="subTitleNumb">DESEMBARQUES TOTAIS</p>
+          <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="1150" >86</p>
+          <p class="subTitleNumb" data-aos="flip-left" data-aos-duration="1250">DESEMBARQUES TOTAIS</p>
         </div>
         <div class="col-sm col3">
-          <p class="h1 titleNumb">68</p>
-          <p class="subTitleNumb">FOGUETES RECUPERADOS</p>
+          <p class="h1 titleNumb" data-aos="flip-right" data-aos-duration="1350">68</p>
+          <p class="subTitleNumb" data-aos="flip-right" data-aos-duration="1300">FOGUETES RECUPERADOS</p>
         </div>
       </div>
     </div>
@@ -115,7 +116,10 @@
           class="carousel-item active container00 carrossel01"
           data-bs-interval="10000"
         >
-          <div class="container" id="overViewPosition">
+          <div
+            class="container"
+            id="overViewPosition"
+          >
             <p class="subTitleOvewView">FALCON 9</p>
             <p class="h3 titleOverView">VISÃO GERAL</p>
 
@@ -300,7 +304,7 @@
     </div>
 
     <div class="container-fluid container00 container07">
-      <div class="container" id="overViewPosition">
+      <div class="container" id="overViewPosition" data-aos="fade-down" data-aos-duration="1000">
         <p class="subTitleOvewView">FALCON 9</p>
         <p class="h3 titleOverView">MERLIN</p>
         <p>
@@ -450,7 +454,10 @@
         <span
           >Para mais informações sobre os serviçoes entre em contato com</span
         >
-        <a href="https://www.instagram.com/onebitcode/" target="blank"
+        <a
+          href="https://www.instagram.com/onebitcode/"
+          target="blank"
+          class="email"
           >onebitcode@gmail.com</a
         >
       </p>
@@ -486,5 +493,11 @@
 
     <!--SCRIP BOOTSTRAP-->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- LIB TEXT SCRIPT-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

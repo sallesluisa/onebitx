@@ -56,6 +56,24 @@
   color: #555252;
 }
 
+.downloadDesc {
+  background: #000;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+
+.email {
+  text-decoration: none;
+  color: #555252;
+}
+.email:hover {
+  color: #b9b9b9;
+}
+
 @media (max-width: 449px) {
   .downloadDesc button {
     margin: 10px 0;
@@ -202,23 +220,6 @@
   background: #000;
 }
 
-.downloadDesc {
-  background: #000;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: #555252;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
-}
-.downloadDesc button {
-  border: 2px solid #fff;
-  margin-right: 10px;
-}
-
 @media (max-width: 768px) {
   .numbers .titleNumb {
     font-size: 5rem;
@@ -258,6 +259,109 @@
   }
   .subTitleFalcon {
     font-size: 1rem;
+  }
+}
+.container00.container08 {
+  background-image: url(../../img/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../../img/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../../img/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../../img/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../../img/humanFlight/05.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 7.5rem;
+}
+.container01Content .subTitleHuman {
+  margin: 20px 0 50px 0;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background: #000;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 3.75rem;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 5.625rem;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textDescEarth {
+    font-size: 1rem;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 3.75rem;
+  }
+  .subTitleHuman {
+    font-size: 1.5rem;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 3.125rem;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 2.5rem;
   }
 }
 
